@@ -18,11 +18,9 @@ function sayName() {
 }
 sayName();
 
-//undersanding "this" keyword
-
 var name = "Ramakrishna";
 
-console.log("line no 3", name);
+console.log("line no 21", name);
 
 // function sayNaaame(){
 //     console.log("line no 6", name);
@@ -31,11 +29,11 @@ console.log("line no 3", name);
 
 function sayNaaame() {
     // var name = "name1";
-    console.log("Line no 12", name);
+    console.log("Line no 31", name);
     sayNaaameTwo();
     function sayNaaameTwo(){
         // var name = "Mr.Kumbar"
-        console.log("line no 15", name);
+        console.log("line no 36", name);
     }
 }
 sayNaaame();
