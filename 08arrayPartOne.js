@@ -4,7 +4,7 @@ var countries = ["India", "Spain", "Japan", "Russia", "France"]
 
 var states = new Array("Karnataka", "Delhi", "Maharastra", "Assam")
 
-console.log(states[2]);
+console.log(states[2]); // elements in the array are known as index
 states[0] = "Himachal Pradesh";
 console.log(states);
 
