@@ -12,7 +12,8 @@ console.log(isEven(10));
 // }
 // console.log(isOdd(10));
 
-// arrow Functions
+// arrow Functions (using arrow function is oprional)
+
 var isOdd = (element) => {
     return element % 2 !== 0 
 //arrow functions are required to have "return" keyword when {} are used
