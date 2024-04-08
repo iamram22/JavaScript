@@ -23,7 +23,7 @@ var iPhone15 = {
     camera : "Old but improved, especially while recording videos ",
     battery : "marginally big and drastically good optimization",
     Pricing : "80,000 INR same as last year iPhone 14",
-    Charging : "Usb type C this time finally and not so quality",
+    Charging : "Usb type C this time finally and not so good quality",
     Warranty : "1 year replacement/repair (No Change)",
     Design : "remains same for NON-PRO models",
     Packing : "Similar to iPhone 14"
