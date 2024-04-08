@@ -6,6 +6,8 @@ const myNumber = [1,2,4,5,6,7,8,9,66,75,87,32,78]
 const result = myNumber.filter((num) => num >= 78)
 console.log(result);
 
+//learning avout Splice properties for Arrays
+
 var users = ["Ted", "Tim", "Tom", "Sam", "Sor", "Sod"]
 
 console.log(users.slice(1,4));
