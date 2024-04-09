@@ -1,6 +1,5 @@
 //conditionals help us to do check for multiple statements and return a block of code 
 
-
 //1. using if and else
 
 var temperature;
@@ -19,13 +18,13 @@ if (temperature < 30) {
 };
 
 
-//another example using logical operators
+//another example using logical operators 
 
 var email = true;
 var facebook = false;
 var google = false;
 
-if (email || facebook || google) {
+if (email || facebook || google) { 
     console.log("Login success");
 }; //&& can also be used to check if all the conditions hold true
 
