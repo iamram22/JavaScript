@@ -15,3 +15,9 @@ var user = {
 };
 
 var upComingTasks = true;
+
+user.availableTasks("hospitality of the guest")
+user.availableTasks("Food and Snacks arrangements")
+user.availableTasks("Smooth event as per the plan")
+user.availableTasks("Arrange after event meeting with Senior Managers")
+console.log(user.getTasksfromManager());
