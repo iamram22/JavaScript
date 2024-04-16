@@ -31,12 +31,14 @@ let i = 0;
 //     i++;
 // } while(i < myStates.length);
 
-//do while loop runs/executes once and checks 
+
 k = 25
 
 do {
     console.log(k);
     k++
 } while(k < 10)
+//do while loop runs/executes once and checks 
+// yes I have initialised by k instead of i, just to know that it works!
 
 
