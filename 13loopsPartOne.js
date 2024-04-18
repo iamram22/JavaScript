@@ -1,5 +1,4 @@
 // syntax : for(initializer; condition; incrementer/decrementer;)
-// we can also use use k,j,a instead of i, but it is NOT a good programming practice
 
 for(let i = 0; i < 10; i++){
     console.log(i);
@@ -20,16 +19,16 @@ const myStates = ["Delhi",
 
 let i = 0;
 
-// while(i < myStates.length){
-//     console.log(myStates[i]);
-//     i++
-// }
+while(i < myStates.length){
+    console.log(myStates[i]);
+    i++
+}
 
 
-// do {
-//     console.log(myStates[i]);
-//     i++;
-// } while(i < myStates.length);
+do {
+    console.log(myStates[i]);
+    i++;
+} while(i < myStates.length);
 
 
 k = 25
@@ -39,6 +38,8 @@ do {
     k++
 } while(k < 10)
 //do while loop runs/executes once and checks 
+// we can also use use k,j,a instead of i, but it is NOT a good programming practice
 // yes I have initialised by k instead of i, just to know that it works!
+
 
 
