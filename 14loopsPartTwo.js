@@ -8,3 +8,12 @@ const myStates = ["Delhi",
  "Punjab"
 ];
 
+var z = 0;
+
+// for (;;) {
+//     if ( z > 10) break;
+//     console.log(z);
+//     z++
+// } //bad way of coding for loops this has the potential to mess the entire team effors
+
+myStates.forEach( (s) => (console.log(s)));
