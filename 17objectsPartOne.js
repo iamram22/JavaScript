@@ -29,3 +29,7 @@ if (meera.hasOwnProperty("firstNamee")) {
 } else {
     console.log("Invalid Property");
 }
+
+//more info from MDN docs : The Object type represents one of JavaScript's data types. It is used to store various keyed collections and more complex entities. Objects can be created using the Object() constructor or the object initializer / literal syntax.
+
+
