@@ -7,3 +7,16 @@
     })();
 })();
 
+//closure using functions
+
+function onit() {
+    var name = "Lexical Scoping"
+    console.log("line NO 11");
+
+    function sayLexicalScoping() {
+        console.log(`Learn Closure, it is important ${name}`);
+    } return sayLexicalScoping
+}
+
+var audi = onit();
+audi();
