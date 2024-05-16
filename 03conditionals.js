@@ -61,7 +61,7 @@ switch (user) {
 
 
 //understanding truthy and falsy
-//null, undefined, 0, "", NaN are falsy values and everything apart from these are truthy values
+//null, undefined, 0, "", and NaN are falsy values and everything apart from these are truthy values
 
 var user = "2";
 

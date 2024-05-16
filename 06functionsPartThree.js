@@ -13,6 +13,8 @@ function bigTipper(bill) {
     console.log(parseInt(bill) + 10);
 }
 
+//parseInt will converted the string "150" to variable 150, Js is Js for a reason you should know to deBUG :)
+
 
 biggestTipper();
 
@@ -21,4 +23,6 @@ var biggestTipper =  function (b) {
     console.log(bill + 25);
 }
 
+//biggestTipper is variable and it's made undefined as it is invoked before the code ay like 19.
+//if "var" is removed at line 21, biggestTipper will be a normal function
 

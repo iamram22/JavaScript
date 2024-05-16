@@ -20,11 +20,11 @@ function getUserRole(name, role) {
             break;
     };
 };
-//switch will simply switch the given param and execute the condition when it is true 
+//switch will simply switch the given param and execute when param value is declared.
 
 console.log(getUserRole("Ram", "admin"));
 
-//holding in a variable
+//storing the output data in a variable
 
 userRoleOfDave = getUserRole("Dave", "testprep")
 console.log(userRoleOfDave);
