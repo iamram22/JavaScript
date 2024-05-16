@@ -1,3 +1,5 @@
+// interpolation of methods(function) in the objects
+
 var user = {
     firstName : "Nibbs",
     lastName :  "",

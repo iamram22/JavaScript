@@ -13,6 +13,7 @@ var users = ["Ted", "Tim", "Tom", "Sam", "Sor", "Sod"]
 console.log(users.slice(1,4));
 
 users.splice(1, 3, "Hie")
+//The splice() method of Array instances changes the contents of an array by removing or replacing existing elements and/or adding new elements in place
 
 console.log(users);
 

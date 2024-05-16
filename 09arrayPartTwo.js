@@ -12,7 +12,7 @@ console.log(isEven(10));
 // }
 // console.log(isOdd(10));
 
-// arrow Functions (using arrow function is oprional)
+// arrow Functions (using arrow function is optional)
 
 var isOdd = (element) => {
     return element % 2 !== 0 

@@ -16,6 +16,7 @@ user.loginCount = 56;
 console.log(user.loginCount);
 
 console.table(user);
+//as the name says "console.table" the output key and value is printed in a table format.
 
 // console.log(user);
 

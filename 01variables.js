@@ -1,4 +1,4 @@
-//variables can be decalre by using keyword var, let and const and yes they have thier own pusrposes
+//variables can be decalre by using keyword "var", "let" and "const" and yes they have thier own pusrposes
 
 var myName = Ram;
 
