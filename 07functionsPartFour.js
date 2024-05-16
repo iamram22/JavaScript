@@ -39,4 +39,4 @@ function sayNaaame() {
         console.log("line no 36", name);
     }
 }
-sayNaaame();
+sayNaaame(); 

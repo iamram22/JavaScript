@@ -30,7 +30,7 @@ if (email || facebook || google) {
 
 //another example using Ternary operator 
 // condition ? run this code : run this code instead
-
+ 
 var authenticated = true;
 
 authenticated ? console.log("show dashboard") : console.log("Access denied");

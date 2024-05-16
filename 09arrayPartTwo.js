@@ -10,7 +10,7 @@ console.log(isEven(10));
 // function isOdd(element) {
 //     return element % 2 !== 0
 // }
-// console.log(isOdd(10));
+// console.log(isOdd(10)); 
 
 // arrow Functions (using arrow function is optional)
 

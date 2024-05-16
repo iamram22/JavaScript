@@ -20,7 +20,7 @@ biggestTipper();
 
 var biggestTipper =  function (b) {
     var bill = parseInt(b);
-    console.log(bill + 25);
+    console.log(bill + 25); 
 }
 
 //biggestTipper is variable and it's made undefined as it is invoked before the code ay like 19.

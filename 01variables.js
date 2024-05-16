@@ -8,7 +8,6 @@ satellitesToJupitar = "Thebe, Carme";
 //variables decalred using var keyword can be re-decalred and values can be re-assigned.
 
 
-
 let dwarfPlanet = "Pluto";
 // let dwarfPlanet = "Pluto";
 dwarfPlanet = "Yes it is Pluto";

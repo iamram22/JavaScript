@@ -14,7 +14,7 @@ var user = {
     getTasksfromManager : function () {
         return `${this.firstName} is assigned to complete ${this.upComingTasks.length} number of tasks`
     },
-};
+}; 
 
 var upComingTasks = true;
 

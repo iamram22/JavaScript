@@ -7,7 +7,7 @@ function sayHello(){
 sayHello //this is refering to a function
 sayHello(); //function outputs only when it is invoked NOT refered
 
-// function can accept parameters 
+// function can accept parameters.
 
 
 function learnParams(p1, p2, p3){
