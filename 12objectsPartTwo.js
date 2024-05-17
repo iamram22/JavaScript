@@ -16,6 +16,7 @@ var user = {
     },
 }; 
 
+
 var upComingTasks = true;
 
 user.availableTasks("hospitality of the guest")
