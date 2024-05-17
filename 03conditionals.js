@@ -17,7 +17,6 @@ if (temperature < 30) {
     console.log("It is hot outside");
 };
 
-
 //another example using logical operators 
 
 var email = true;
