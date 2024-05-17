@@ -45,6 +45,7 @@ console.log(displayDiscountPercentage + "% off");
 
 console.log(typeof displayDiscountPercentage);
 
+
 //Logical operators : below explaination from mdn docs, refer 03conditionals for example.
 /* Logical operators are typically used with Boolean (logical) values; 
 when they are, they return a Boolean value. 
