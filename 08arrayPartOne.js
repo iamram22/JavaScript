@@ -10,6 +10,7 @@ console.log(states);
 
 var user = ["Ram", "ramlikestocode@gmail.com", 3, 34, true];
 
+
 // user.pop();
 // user.unshift("New Value")
 // user.shift("New Value")

@@ -5,13 +5,13 @@ var name = "Ramakrishna";
 console.log("line no 3", name);
 
 // function sayName(){
-//     console.log("line no 6", name);
+//     console.log("line no 5", name);
 // }
 // sayName();
 
 function sayName() {
     // var name = "name1";
-    console.log("Line no 12", name);
+    console.log("Line no 14", name);
     sayNameTwo();
     function sayNameTwo(){
         // var name = "Mr.Kumbar"
@@ -22,7 +22,7 @@ sayName();
 
 var name = "Ramakrishna";
 
-console.log("line no 21", name);
+console.log("line no 25", name);
 
 // function sayNaaame(){
 //     console.log("line no 6", name);
@@ -31,11 +31,11 @@ console.log("line no 21", name);
 
 function sayNaaame() {
     // var name = "name1";
-    console.log("Line no 31", name);
+    console.log("Line no 34", name);
     sayNaaameTwo();
     function sayNaaameTwo(){
         // var name = "Mr.Kumbar"
-        console.log("line no 36", name);
+        console.log("line no 38", name);
     }
 }
 sayNaaame(); 
