@@ -29,7 +29,7 @@ const ruleNo4 = "Variable name is case sensetive";
 const ruleNo5 = "Variable name cannot be a reserved keyword, Example: let, while, true, and many more"
 
 let iLearnedAboutVariables = true;
-//variables can also be true or false
+//variables can also be true or false 
 
 
 
