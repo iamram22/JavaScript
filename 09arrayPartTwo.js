@@ -31,6 +31,7 @@ console.log(result);
 var newResult = [2,4,5,6,8,10].every((e) => {
     return e % 2 === 0;
 })
+
 console.log(newResult);
 
 var secondResult = [1,3,5,7,9,11].every((e) => (e % 2 !== 0)) 
