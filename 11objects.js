@@ -9,7 +9,6 @@ var user = {
     loginCount : 32,
     facebookSignedIn : true
 };
-
 console.log(user.firsName);
 
 user.loginCount = 56;
@@ -18,8 +17,6 @@ console.log(user.loginCount);
 
 console.table(user);
 //as the name says "console.table" the output key and value is printed in a table format.
-
-// console.log(user);
 
 var iPhone15 = {
     display : "New",
