@@ -1,6 +1,5 @@
 //Global scope
 
-
 var name = "Ramakrishna";
 
 console.log("line no 3", name);
