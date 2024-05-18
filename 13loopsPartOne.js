@@ -6,7 +6,8 @@ for(let i = 0; i < 10; i++){
     console.log(i);
 };
 
-// for loop: This is a fundamental looping construct used to iterate over a block of code multiple times. It consists of three parts: initialization, condition, and increment/decrement.
+/* for loop: This is a fundamental looping construct used to iterate over a block of code multiple times.
+It consists of three parts: initialization, condition, and increment/decrement. */
 
 
 
@@ -25,9 +26,12 @@ const myStates = ["Delhi",
 
 
 
-// while loop : is a control flow statement that allows you to execute a block of code repeatedly as long as a specified condition evaluates to true. Its basic syntax looks like this
+/* while loop : is a control flow statement that allows you to execute a block of code repeatedly as long as
+ a specified condition evaluates to true. Its basic syntax looks like this
 
-// If the condition is true, the code inside the loop is executed. If the condition is false initially, the code block inside the loop will never execute.
+If the condition is true, the code inside the loop is executed. If the condition is false initially, 
+the code block inside the loop will never execute.
+ */
 
 let i = 0;
 
