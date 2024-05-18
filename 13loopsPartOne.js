@@ -1,5 +1,6 @@
 // syntax : for(initializer; condition; incrementer/decrementer;)
-// You can think of a loop as a computerized version of the game where you tell someone to take X steps in one direction, then Y steps in another. For example, the idea "Go five steps to the east" could be expressed this way as a loop
+/* You can think of a loop as a computerized version of the game where you tell someone to take X steps in one direction,
+ then Y steps in another. For example, the idea "Go five steps to the east" could be expressed this way as a loop */
 
 for(let i = 0; i < 10; i++){
     console.log(i);
@@ -35,11 +36,15 @@ while(i < myStates.length){
     i++
 };
 
-// After the code block executes, the program goes back to the while statement and evaluates the condition again. If the condition is still true, the code block executes again. This process continues until the condition becomes false. Once the condition is false, the loop terminates, and the program moves on to the code after the loop.
+/* After the code block executes, the program goes back to the while statement and evaluates the condition again.
+If the condition is still true, the code block executes again. This process continues until the condition becomes false.
+Once the condition is false, the loop terminates, and the program moves on to the code after the loop. */
 
 
-// do...while loop : is a control flow statement that executes a block of code repeatedly until a specified condition evaluates to false. The key difference between a do...while loop and a while loop is that in a do...while loop, the condition is evaluated after the block of code is executed, meaning the block of code is guaranteed to execute at least once.
-
+/* do...while loop : is a control flow statement that executes a block of code repeatedly until a specified condition evaluates to false.
+The key difference between a do...while loop and a while loop is that in a do...while loop, 
+the condition is evaluated after the block of code is executed, meaning the block of code is guaranteed to execute at least once.
+ */
 
 do {
     console.log(myStates[i]);
