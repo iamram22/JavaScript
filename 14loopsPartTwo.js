@@ -1,7 +1,12 @@
 //foreach is considered as method, rather than loop and it's a loop at the end of the day
 
+/* forEach : loop is a higher-order function that allows you to iterate over elements of an array
+and perform a specified action on each element. 
+It simplifies the process of iterating over arrays compared to traditional for loops.
+ */
+
 const myStates = ["Delhi",
- "Karnataka",
+"Karnataka",
   1947,
  "Tamil Nadu",
  "Maharastra",
@@ -9,6 +14,7 @@ const myStates = ["Delhi",
 ];
 
 var z = 0;
+
 
 // for (;;) {
 //     if ( z > 10) break;
