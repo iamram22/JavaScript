@@ -22,6 +22,7 @@ var ramakrishna = new user ("Ramakrishna", 29);
 ramakrishna.getFirstName();
 ramakrishna.getCourseCount();
 
+
 /* When you create an object using the new keyword with a constructor function,
 the newly created object inherits properties and methods
 from theconstructor function's prototype */
