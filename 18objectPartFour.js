@@ -5,7 +5,6 @@ var User = {
     },
 };
 
-
 /* Object.create is a method in JavaScript that allows you to create a new object with
 a specified prototype object and optional properties. It provides a way to create objects
 with a specific prototype without having to define a constructor function */
