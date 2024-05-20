@@ -8,7 +8,6 @@ var user = function(firstName, courseCount) {
         console.log(`The course count is: ${this.courseCount}`);
     };
 };
-
 /* In JavaScript, every object has a prototype. The prototype
 is an object from which the object inherits properties */
 
