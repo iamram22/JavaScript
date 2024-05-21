@@ -1,4 +1,4 @@
-// using self-executing anonymous functions for understanding lexical scoping
+// using self-executing function for understanding lexical scoping
 
 /* Lexical-scoping : When a function is defined within another function, 
 the inner function has access to the variables declared in the outer function.
