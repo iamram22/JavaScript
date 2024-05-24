@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Four.Html</title>
+</head>
+<body style="background-color: #212121; color: #ffffff;">
+    <ul class="language">
+        <li>Javascript</li>
+    </ul>
+</body>
+    <script>
+        function addLang(langName){
+            const li = document.createElement("li");
+            li.innerHTML = `${langName}`;
+            document.querySelector(".language").appendChild(li);
+        };
+        addLang("Type Script");
+        addLang("Python");
+        addLang("Java");
+        addLang("GoLang");
+
+        //creating elements in a more optimsed way through function!
+        function addOptiLang(langName){
+            const li = document.createElement("li");
+            li.appendChild(document.createTextNode(langName));
+            document.querySelector(".language").appendChild(li);
+        };
+        addOptiLang("Swift");
+        addOptiLang("RUST");
+
+        //Editing the elements from HTMl
+        
+        /* "nth-child()" is actually a CSS pseudo-class rather than a JavaScript feature.
+         It's used to select elements based on their ordinal position among a group of siblings.
+        However, you can use JavaScript to manipulate the styles of elements selected using "nth-child()" */ 
+
+        const secondLang = document.querySelector("li:nth-child(2)");
+        const newLi = document.createElement("li");
+        newLi.textContent = "mojo";
+        secondLang.replaceWith(newLi)
+
+        //edit
+
+        const firstLang = document.querySelector("li:first-child");
+        firstLang.outerHTML = "<li>TypeScript</li>";
+
+
+        //remove
+
+        const lastLang = document.querySelector("li:last-child");
+        lastLang.remove()
+
+    </script>
+</html>
