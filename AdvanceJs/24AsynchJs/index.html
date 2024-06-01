@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <h1>Learning Asynchronous Js</h1>
+    <button id="stop">STOP</button>
+</body>
+    <script>
+       const topicOfTheDay = function(){
+        console.log("Welcome to Asynchronous Javascript ");
+       };
+       const changeHtml = function(){
+        document.querySelector("h1").innerHTML =  "Asynchronous Javascript is a must, to be a good developer"
+       }
+       const changeThis = setTimeout(topicOfTheDay, 2000);
+       const chaneThisToo = setTimeout(changeHtml, 3000);
+
+      document.getElementById("stop").addEventListener("click", function(){
+        clearTimeout(changeThis);
+        console.log("STOPPED");
+      });
+       
+    </script>
+</html>
