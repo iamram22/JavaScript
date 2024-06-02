@@ -12,12 +12,20 @@
     
 </body>
     <script>
+
+
+
+       /*  setInterval is a JavaScript function used to repeatedly execute a specified function or
+        piece of code at a set interval. It's similar to setTimeout, but instead of executing the function once after a delay,
+        setInterval continues to execute the function at the specified interval until it is cleared */
+
        /*  const testingSetInterval = function(){
             console.log("date", Date.now());
         }
         const myId = setInterval(testingSetInterval, 5000)
 
         clearInterval(myId) */
+
             
         let interval;
 
@@ -25,6 +33,11 @@
             interval = setInterval(function(){
                 console.log("todays Date " ,Date.now());
             }, 2000);   
+
+            /* clearInterval is a JavaScript function used to stop the repeated execution of a function or code snippet
+            that was set up using setInterval. It takes the ID returned by setInterval
+            as an argument to identify which interval to clear. */
+
             document.getElementById("stop").addEventListener("click",function(){
                 clearInterval(interval)
             }); 
