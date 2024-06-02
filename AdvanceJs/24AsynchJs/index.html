@@ -16,8 +16,19 @@
        const changeHtml = function(){
         document.querySelector("h1").innerHTML =  "Asynchronous Javascript is a must, to be a good developer"
        }
+
+       /*  setTimeout is a function in JavaScript that allows you to execute a specified function or
+        piece of code after a specified delay. It's commonly used to create delays in code execution
+        or to schedule code to run at a later time. */
+
        const changeThis = setTimeout(topicOfTheDay, 2000);
        const chaneThisToo = setTimeout(changeHtml, 3000);
+
+
+
+      /* clearTimeout is a JavaScript function used to cancel a timeout previously set by setTimeout. 
+      This function is useful when you want to prevent the execution of a function
+      that was scheduled to run after a certain delay using setTimeout */
 
       document.getElementById("stop").addEventListener("click", function(){
         clearTimeout(changeThis);
