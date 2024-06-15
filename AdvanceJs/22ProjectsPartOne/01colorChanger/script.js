@@ -26,11 +26,11 @@ buttons.forEach(function(button){
       body.style.backgroundColor = e.target.id
     }
   }); 
-  aTag.style.textDecoration = "none";
-  aTag.style.backgroundColor = "Green"
-  aTag.style.padding = "10px";
-  aTag.style.color = "yellow"
-  aTag.addEventListener("click", function(){
+    aTag.style.textDecoration = "none";
+    aTag.style.backgroundColor = "Green"
+    aTag.style.padding = "10px";
+    aTag.style.color = "yellow"
+    aTag.addEventListener("click", function(){
     body.style.backgroundColor = "purple"
   })
 });
