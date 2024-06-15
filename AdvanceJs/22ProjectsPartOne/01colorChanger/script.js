@@ -1,5 +1,6 @@
 const buttons = document.querySelectorAll(".button");
 const body = document.querySelector("body");
+const aTag = document.querySelector("#aTag")
 
 
 /* .target property is commonly used in event handling. It refers to the object that triggered the event.
@@ -25,5 +26,11 @@ buttons.forEach(function(button){
       body.style.backgroundColor = e.target.id
     }
   }); 
-  document.getElementById("purple").style.backgroundColor = "purple"
+  aTag.style.textDecoration = "none";
+  aTag.style.backgroundColor = "Green"
+  aTag.style.padding = "10px";
+  aTag.style.color = "yellow"
+  aTag.addEventListener("click", function(){
+    body.style.backgroundColor = "purple"
+  })
 });
