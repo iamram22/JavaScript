@@ -9,6 +9,17 @@ promiseOne.then(function () {
   console.log("Promise consumed");
 });
 
+const Promise1 = new Promise((res, rej) => {
+  setTimeout(() => {
+    console.log("Practicing Promise again");
+    res()
+  })
+})
+Promise1.then(function () {
+  console.log("new Promise consumed");
+  
+})
+
 /* In JavaScript, promises are objects used to handle asynchronous operations. 
 They represent a value that may be available now, or in the future, or never. 
 Promises are widely used in modern JavaScript for handling asynchronous tasks,
