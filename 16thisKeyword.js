@@ -23,3 +23,5 @@ for you when the function body is evaluated. */
 /* For a regular function (not an arrow function, bound function, etc.), 
 the value of this is the object that the function is accessed on. In other words, 
 if the function call is in the form obj.f(), then this refers to obj. For example */
+
+//come back and refer while using this in ReactNative
