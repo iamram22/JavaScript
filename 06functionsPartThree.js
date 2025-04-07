@@ -21,6 +21,6 @@ var biggestTipper =  function (b) {
     console.log(bill + 25); 
 }
 
-//biggestTipper is variable and it's made undefined as it is invoked before the code ay like 19.
+//biggestTipper is variable and it's made undefined as it is invoked before the code at line 19.
 //if "var" is removed at line 19, biggestTipper will be a normal function
 
