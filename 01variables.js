@@ -2,9 +2,9 @@
 
 var myName = Ram;
 
-var satellitesToJupitar = "Io, Europa, Callisto, and many more";
-var satellitesToJupitar = "Aitne, Sponde";
-satellitesToJupitar = "Thebe, Carme";
+var satellitesToJupiter = "Io, Europa, Callisto, and many more";
+var satellitesToJupiter = "Aitne, Sponde";
+satellitesToJupiter = "Thebe, Carme";
 //variables decalred using var keyword can be re-decalred and values can be re-assigned.
 
 
