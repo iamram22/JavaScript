@@ -1,7 +1,7 @@
 //basic function
 
 function sayHello(){
-    console.log("Hello, this is how a function (works T&C apply)");
+    console.log("Hello, this is how a function works (T&C apply)");
 };
 
 sayHello //this is refering to a function
@@ -15,6 +15,6 @@ function learnParams(p1, p2, p3){
     console.log(`invoking param3 ${p3}`);
 };
 
-learnParams("I'm p1", "I'm p1", "I'm p3")
+learnParams("I'm p1", "I'm p2", "I'm p3")
 
 
