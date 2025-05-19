@@ -10,9 +10,9 @@ console.log(states);
 
 var user = ["Ram", "ramlikestocode@gmail.com", 3, 34, true];
 
-// user.pop();
-// user.unshift("New Value")
-// user.shift("New Value")
+// user.pop(); // removes the last element
+// user.unshift("New Value") // adds one or more elements at beginning of the array
+// user.shift("New Value") //removes the first element
 // console.log(user);
 
 console.log(user.indexOf(34));
